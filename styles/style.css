@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* font-styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* nav styles */
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px 50px 150px;
+}
+
+.nav-heading {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.nav-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 17px 24px;
+    opacity: 0.8;
+}
+
+/* banner styles */
+
+.banner {
+    background-image: url(../assets/Hero-bg.png);
+    height: 650px;
+    text-align: center;
+}
+
+.banner-img > img {
+    margin-top: 24px;
+}
+
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px 500px;
+}
+
+.banner-subtitle {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 600px;
+    text-align: center;
+}
+
+.banner-btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    padding: 21px 24px 21px 24px;
+    background: rgb(13, 19, 33);
+}
